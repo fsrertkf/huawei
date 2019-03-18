@@ -9,6 +9,7 @@ public class Main {
 	public static HashMap<Integer, Road> roads;
 	public static HashMap<Integer, Cross> crosses;
 	public static int crossToRoad[][];// 保存路口与道路关系邻接矩阵  6-502-5，则把[6][5]设为502
+	public static String shortest[][];// 保存路口之间的最短路径 6-502-503-504-5，则[6][5]="502-503-504"
 	
 	public static void main(String[] args) {
 		//读取文件创建对象
@@ -31,6 +32,10 @@ public class Main {
 	}
 	
 	public static void driveCarInGarage() {// 将车库中的车行驶上路
+		
+	}
+	
+	public static void getShortest() { //对shortest进行初始化
 		
 	}
 }
